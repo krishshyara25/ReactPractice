@@ -1,0 +1,921 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 700vh;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar1{
+    position: fixed;
+    width: 100%;
+    background-color: #f9f6ef;
+    display: grid;
+    grid-template-columns:58% 7% 4% 8% 13% 7%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text:hover{
+    text-decoration: underline 1px;
+}
+#logo_img{
+    width: 55%;
+    margin-top: 11%;
+    margin-left: 20%;
+}
+#logo_img:hover{
+    cursor: pointer;
+}
+.navbar2{
+    display: grid;
+    grid-template-columns: 7% 80% 10%;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 38px;
+    padding-bottom: 10px
+}
+.catagory{
+    display: grid;
+    grid-template-columns: 9% 10% 8% 8% 11% 13% 9% 12% 14%;
+    width: 100%;
+}
+.nav2_img{
+    width: 50%;
+    margin-top: 55%;
+}
+.text2{
+    font-weight: bold;
+    align-content: center;
+}
+.text2:hover{
+    text-decoration: underline red 3px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.thumbnail{
+    background-image: url(https://in.jbl.com/on/demandware.static/-/Library-Sites-SharedLibrary-JB/default/dwdc1c3c00/india/JBL.com-Homepage-Roll-Back-Resize_Olympians_1920x540-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 230vh;
+    width: 100%;
+    height: 65vh;
+}
+
+.thumbnail_text{
+    padding-top: 11%;
+    padding-left: 4%;
+    font-size: 60px;
+    width: 40%;
+    font-weight: bolder;
+    color: white;
+}
+.thumbnail_text2{
+    color: white;
+    padding-top: 1%;
+    padding-left: 4%;
+
+}
+.thumbnail_text3{
+    color: white;
+    background-color: #df2d00;
+    font-family: sans-serif;
+    width: 5%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.thumbnail_text3:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+.features{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    
+}
+.feature{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 0.5px solid orangered;
+}
+#picture{
+    width: 80%;
+    margin-top: 5%;
+}
+.free_shopping{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.free_shopping:hover{
+    text-decoration: underline red 1.5px;
+}
+.text3{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.text3:hover{
+    text-decoration: underline red 1.5px;
+}
+.text4{
+    color: orangered;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.catagory2{
+    background-color: #f9f6ef;
+    height: 50vh;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.items{
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11%;
+    justify-content: center;
+    margin-top: 4%;
+}
+.headphones:hover{
+    text-decoration: underline red 1.5px;
+}
+.catagory_text{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.items_img{
+    width: 65%;
+    margin-left: 15%;
+}
+.head{
+    font-size: 60px;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.products{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 200px;
+}
+.buds1{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwcd3e7bd6/1.JBL_Live%20Pro%202_Product%20image_Hero_Blue.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+    height: 100vh;
+}
+.headphone{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0c775f13/JBL_TOUR_One%20M2_Product%20Image_Hero_Black.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.buds2{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0d35bd60/01.JBL_Live%20Beam%203_Product%20Image_Feature%20Screen%2002_Black.png?sw=824&sh=824);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.party_speaker{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw81a54e2f/JBL_PartyBox_310_Hero_0176_x3.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.speaker{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwca38792b/JBL_FLIP_ESSENTIAL_2_HERO_36360_x3.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.sale{
+    background-color: #e74c3c;
+    width:fit-content;
+    color: white;
+    padding: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.buds1div{
+    display: grid;
+    grid-template-columns: 8% 8%;
+    margin-top: 75%;
+    margin-left: 5%;
+}
+.buds1_color{
+    background-color: #003466;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.buds1_color2{
+    background-color: #000000;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.headphone_color{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.headphone_color2{
+    background-color: #e5d8c8;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.buds2div{
+    display: grid;
+    grid-template-columns: 8% 8% 8%;
+    margin-top: 75%;
+    margin-left: 5%;
+}
+.buds2_color1{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.buds2_color2{
+    background-color: #6d8796;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.buds2_color3{
+    background-color: #c3c3c3;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 15%;
+}
+.p_speaker_color{
+    background-color:black;
+    height: 20px;
+    width: 20px;
+    margin-top: 81%;
+    margin-left: 5%;
+}
+.speaker_color{
+    background-color:#4f4f46;
+    height: 20px;
+    width: 20px;
+    margin-top: 81%;
+    margin-left: 5%;
+}
+.line{
+    border-bottom: 1px solid orangered;
+    width: 82%;
+    height: 18px;
+    margin-left: 8%;
+}
+.name{
+    margin-left: 8%;
+    font-weight:600;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.details{
+    margin-left: 8%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+    margin-top: 8%;
+}
+.price1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 17px;
+    margin-top: 14%;
+    margin-left: 8%;
+}
+.price{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 17px;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.act{
+    font-weight: bold;
+}
+.mrp{
+    text-decoration: line-through;
+}
+.offer{
+    margin-left: 8%;
+    margin-top: 2%;
+    background-color: orangered;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 3px;
+    color: white;
+    height: 16px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.details2{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 13px;
+    color: #2a7fb8;
+}
+.more_div{
+    display: grid;
+    grid-template-columns: 44% 56%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.more_div:hover{
+    cursor: pointer;
+}
+.arrow{
+    width: 7%;
+}
+.poster{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 34%;
+    width: 100%;
+}
+#poster1{
+    height: 65.5%;
+    width: 100%;
+}
+
+.poster_logo {
+    margin-top: 15%;
+    margin-left: 42%;
+}
+.poster_text {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 28%;
+    font-size: 31px;
+    width: 47%;
+    color: white;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.poster_text2 {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 28%;
+    font-size: 18px;
+    width: 47%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.poster_text3 {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 42%;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+    width: 17%;
+    color: black;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.poster_text3:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.offer_detail{
+    background-color: #91adff;
+    height: 79vh;
+}
+.offer_details{
+    background-color: #df2d00;
+    height: 66vh;
+    margin: 6%;
+}
+.popular{
+    margin-top: -19%;
+    width: 100%;
+}
+.speaker1{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwe7a2c14d/1_JBL_PARTYBOX_110_HERO_x2.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+    height: 98vh;
+}
+.headphone1{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw2c14d626/01.JBL_Live_770NC_Product%20Image_Hero_Black.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.speaker2{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwc2f70f3b/1_JBL_FLIP6_HERO_BLACK_29391_x2.png?sw=824&sh=824);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.sound_bar{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw4a4a7ec5/JBL_CINEMA_SB_510_HERO_49084_x3.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.speaker{
+    background-image: url(https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwa8580920/JBL_CHARGE5_HERO_BLACK_0046_x1.png?sw=600&sh=600);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    border: 1px solid orangered;
+}
+.speaker1_color{
+    background-color: #000000;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.headphone1_color2{
+    background-color: #436e99;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.speaker2div{
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8%;
+    margin-top: 75%;
+    margin-left: 5%;
+}
+.speaker2_color1{
+    background-color: #6d8796;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.speaker2_color2{
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.speaker2_color3{
+    background-color: #d91624   ;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 15%;
+}
+.speaker2_color4{
+    background-color: black   ;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 20%;
+}
+.speakerdiv{
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8%;
+    margin-top: 75%;
+    margin-left: 5%;
+}
+.speaker_color1{
+    background-color: #d91624;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 5%;
+}
+.speaker_color2{
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+.speaker_color3{
+    background-color: #2e4859   ;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 15%;
+}
+.speaker_color4{
+    background-color: black   ;
+    height: 20px;
+    width: 20px;
+    margin-top: 80%;
+    margin-left: 20%;
+}
+.tech{
+    margin-top: 34%;
+    background-color: #f9f6ef;
+    height: 117vh;
+    width: 100%;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 84px;
+    font-weight: 900;
+    width: 45%;
+    margin: auto;
+    color: #df2d00;
+    font-family: "abc-diatype", "ABC Diatype", "roc-grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+.heading2{
+    font-size: 84px;
+    font-weight: 900;
+    width: 45%;
+    margin-top: -2%;
+    margin-left: 35%;
+    color: #df2d00;
+    font-family: "abc-diatype", "ABC Diatype", "roc-grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+.text5{
+    text-align: center;
+    margin: auto;
+    width: 27%;
+}
+.poster2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 3%;
+}
+.image1{
+    background-image: url(https://in.jbl.com/on/demandware.static/-/Library-Sites-SharedLibrary-JB/default/dw5ac2d926/Facelift/technology_770NC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 14%;
+    margin-right: 6%;
+}
+.image1:hover{
+    cursor: pointer;
+}
+.image2{
+    background-image: url(https://in.jbl.com/on/demandware.static/-/Library-Sites-SharedLibrary-JB/default/dwc06b7592/india/Andrew-McKenna-Lifestyle-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 3%;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 6%;
+}
+.image2:hover{
+    cursor: pointer;
+}
+.image3{
+    background-image: url(https://in.jbl.com/on/demandware.static/-/Library-Sites-SharedLibrary-JB/default/dw8c56b74c/Facelift/technology_app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 3%;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 6%;
+}
+.image3:hover{
+    cursor: pointer;
+}
+.image4{
+    background-image: url(https://in.jbl.com/on/demandware.static/-/Library-Sites-SharedLibrary-JB/default/dw19cbebc9/Facelift/technology_xtreme3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 3%;
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 14%;
+}
+.image4:hover{
+    cursor: pointer;
+}
+.photo1{
+    width: 3%;
+    margin-top: 4%;
+    background-color: white;
+    margin-left: 84%;
+    padding: 4%;
+}
+.img1_text{
+    background-color: white;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 55%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.img1_text2{
+    background-color: white;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -13%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+.img1_text3{
+    background-color: white;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -13%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+
+.img1_text4{
+    background-color: white;
+    padding: 5%;
+    font-size: 14px;
+    margin: 5%;
+    margin-top: -8%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+.img2_text{
+    background-color: white;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 41%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.img3_text4{
+    background-color: white;
+    padding: 7%;
+    font-size: 14px;
+    margin: 5%;
+    margin-top: -8%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+.img4_text{
+    background-color: white;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 64%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.signup{
+    display: grid;
+    grid-template-columns: 56% 44%;
+    background-color: #ff4713;
+    height: 38vh;
+    width: 100%;
+}
+.signup_text1{
+    color: white;
+    font-size: 35px;
+    margin-left: 3%;
+    padding-top: 4%;
+    font-weight: 800;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.signup_text2{
+    color: white;
+    font-size: 35px;
+    margin-left: 3%;
+    font-weight: 800;
+    margin-top: -1%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.privacy{
+    display: grid;
+    grid-template-columns: 8.3% 11%;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.privacy_text{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top: 2%;
+}
+.privacy_text:hover{
+    cursor:pointer;
+}
+.email{
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-weight: 500;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.Email{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.arrow2{
+    width: 7%;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+.line2{
+    height: 1vh;
+    width: 30vw;
+    border-bottom: 2px solid #000000;
+    margin-top: -25%;
+    margin-left: 10%;
+}
+.footer{
+    background-image: url(https://in.jbl.com/on/demandware.static/Sites-JB-INDIA-Site/-/en_IN/v1730601946309/media/footer-horn.svg);
+    background-repeat: no-repeat;
+    background-size: 39%;
+    height: 150vh;
+    width: 100%;
+    background-color: #000000;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 35% 20%;
+}
+.footer_title{
+    color: #ff4713;
+}
+.col1{
+    margin-left: 16%;
+    margin-top: 10%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.col3{
+    margin-left: 16%;
+    margin-top: 5%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option{
+    color: white;
+    margin-top: 7%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option:hover{
+    color: orangered;
+    text-decoration: underline 1.5px;
+    text-underline-offset: 5px;
+}
+.footer_option1{
+    color: white;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.footer_option2{
+    color: white;
+    text-decoration: underline;
+    margin-top: 7%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option2:hover{
+    color: orangered;
+    text-decoration: underline 1.5px;
+    text-underline-offset: 5px;
+}
+.footer_option3{
+    color: white;
+    font-weight: bold;
+    margin-top: 7%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option4{
+    color: orangered;
+    font-weight: bold;
+    margin-top: 23%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option5{
+    color: white;
+    margin-top: 7%;
+    font-size: 17px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.footer_option5:hover{
+    color: #34a853;
+    text-decoration: underline 1.5px;
+    text-underline-offset: 5px;
+}
+.icons2{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12%;
+    margin-top: 7%;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.subfooter{
+    display: grid;
+    grid-template-columns: 50% 3% 5%    8%;
+    margin-top: 12%;
+}
+.footer_text{
+    color: white;
+    margin-left: 3%;
+    width: 100%;
+    font-size: 15px;
+    font-family: "roc-grotesk", "Roc Grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.flag{
+    width: 3vh;
+    margin-top: 2%;
+}
+.line3{
+    height: 1vh;
+    width: 65vw;
+    border-bottom: 1px solid orangered;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+}
+.brand{
+    display: grid;
+    grid-template-columns: 9% 9% 9% 9% 9% 9% 9% 9%;
+}
+.brand_img{
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 40%;
+    opacity: 60%;
+}
+.brand_img:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+.chat{
+    height: 30vh;
+    width: 15vw;
+    background-color: orangered;
+}
