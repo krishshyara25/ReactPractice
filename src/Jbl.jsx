@@ -1,5 +1,5 @@
 
-import './assets/JBL.css'
+import './assets/jbl.css'
 
 function App() {
   return (
